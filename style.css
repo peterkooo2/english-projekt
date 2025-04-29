@@ -5,14 +5,6 @@ h1{
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
-h2{
-    color: #b87333;
-    font-size: 25px;
-    text-align: center;
-    text-align: left;
-    margin-left: 1cm;
-    font-family: 'Times New Roman', Times, serif;
-}
 .index{
     background-image: url('2010872.jpg');
     background-repeat: no-repeat;
@@ -53,3 +45,38 @@ button{
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 8px 24px rgba(50, 30, 10, 0.28), 0 2px 0 #7c4a03;
   }
+  p{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    background: rgba(255,255,255,0.7); 
+    padding: 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    max-width: 340px;
+}
+  p{
+    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+p{
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+/* Optional: Animate appearance */
+p{
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
+}
