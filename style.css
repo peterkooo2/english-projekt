@@ -1,0 +1,55 @@
+h1{
+    font-style: italic;
+    text-align: center;
+    font-size: 5cm;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: #b87333;
+    font-size: 25px;
+    text-align: center;
+    text-align: left;
+    margin-left: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+.index{
+    background-image: url('2010872.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.voucher{
+    background-image: url('jisteni.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background: linear-gradient(135deg, #b87333 0%, #f7c873 100%);
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Georgia', serif;
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(50, 30, 10, 0.2), 0 1.5px 0 #7c4a03;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 1.5em;
+    display: block;
+    margin: 0 auto;
+  }
+  button:hover{
+    background: linear-gradient(135deg, #a55d1a 0%, #e6b04e 100%);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(50, 30, 10, 0.28), 0 2px 0 #7c4a03;
+  }
